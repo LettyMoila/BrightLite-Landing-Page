@@ -1,10 +1,89 @@
-.App {
+.div2 {
   text-align: center;
+  background-color:blueviolet;
+  width: 60%;
+  right: 0;
+  top: 0;
+  position: absolute;
+  min-height: 100%;
 }
-
+.App{
+  height: 100%;
+  width: 100%;
+}
+.blackContainer{
+  background-color: #282c34;
+ width: 40%;
+ text-align: left;
+ font-family: serif;
+ color: white;
+ left: 0;
+ top: 0;
+ position: absolute;
+ min-height: 100%;
+}
+#top-left{
+color: lightslategray;
+text-align: left;
+font-family: 'Trebuchet MS';
+}
+#top-right{
+  text-align: right;
+  color: purple;
+  font-family: 'Courier New', Courier, monospace;
+}
+a{
+  padding: 10px;
+}
+#tilted{
+ background-color: aliceblue;
+ color: black;
+ border-radius: 10px;
+ transform: rotate(10deg);
+ position: absolute;
+ height: 300px;
+ width: 350px;
+ margin: 50px 0 0 100px;
+ padding: 8px;
+}
+.heading{
+font-size: small;
+}
+.subheading{
+  font-size: 45px;
+}
+.paragraph{
+  font-size: small;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+.pic{
+  width: 10px;
+  height: 10px;
+  align-items: center;
+}
+#span1{
+  text-align: left;
+  font-weight: bold;
+}
+#btn1{
+  border-radius: 10px;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-top: 0;
+}
+.nav-bar{
+padding: 15px;
+text-align: right;
+color: white;
+}
+#btn2{
+  border-color: white;
+  color: beige;
+  background-color: blueviolet;
+  border-radius: 15px;
 }
 
 @media (prefers-reduced-motion: no-preference) {
